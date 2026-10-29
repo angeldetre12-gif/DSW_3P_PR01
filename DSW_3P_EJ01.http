@@ -1,0 +1,38 @@
+@DSW_3P_EJ01_HostAddress = http://localhost:5272
+
+GET {{DSW_3P_EJ01_HostAddress}}/api/misiones
+Accept: application/json
+
+###
+
+GET {{DSW_3P_EJ01_HostAddress}}/api/misiones/1
+Accept: application/json
+
+###
+
+POST {{DSW_3P_EJ01_HostAddress}}/api/misiones
+Content-Type: application/json
+
+{
+  "nombre": "El bosque perdido",
+  "dificultad": "Fácil",
+  "recompensaXP": 100
+}
+
+###
+
+PUT {{DSW_3P_EJ01_HostAddress}}/api/misiones/1
+Content-Type: application/json
+
+{
+  "nombre": "El bosque perdido",
+  "dificultad": "Media",
+  "recompensaXP": 150,
+  "completada": true
+}
+
+###
+
+DELETE {{DSW_3P_EJ01_HostAddress}}/api/misiones/1
+
+###

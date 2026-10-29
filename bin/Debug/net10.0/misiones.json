@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "El bosque perdido - actualizado",
+    "Dificultad": "Media",
+    "RecompensaXP": 120,
+    "Completada": true
+  },
+  {
+    "Id": 2,
+    "Nombre": "La torre antigua",
+    "Dificultad": "Media",
+    "RecompensaXP": 250,
+    "Completada": false
+  },
+  {
+    "Id": 3,
+    "Nombre": "El drag\u00F3n final",
+    "Dificultad": "Dif\u00EDcil",
+    "RecompensaXP": 500,
+    "Completada": false
+  }
+]
